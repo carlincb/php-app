@@ -1,15 +1,12 @@
+
 <?php
- define ('DB_HOST', 'localhost');
- define ('DB_USER', 'colleen');
- define ('DB_PASS', '123456');
- define ('DB_NAME', 'php_dev');
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
- //Create connection
- $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
 
+$conn = new mysqli($server, $username, $password, $db);
 
- //Check connection
- if($conn->connect_error) {
-    die('Connection Failed ' . $conn->connect_error);
- }
 ?>
