@@ -20,13 +20,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/php-app/index.php">Home</a>
+                        <a class="nav-link" href="/index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/php-app/feedback.php">Feedback</a>
+                        <a class="nav-link" href="/feedback.php">Feedback</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/php-app/about.php">About</a>
+                        <a class="nav-link" href="/about.php">About</a>
                     </li>
                 </ul>
             </div>
