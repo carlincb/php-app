@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <?php
-$sql = 'SELECT * FROM feedback';
+$sql = 'SELECT * FROM php_dev';
 $result = mysqli_query($conn, $sql);
 $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 ?>
